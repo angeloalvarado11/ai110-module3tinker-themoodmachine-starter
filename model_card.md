@@ -13,9 +13,13 @@ You may complete this model card for whichever version you used, or compare both
 Describe whether you used the rule based model, the ML model, or both.  
 Example: “I used the rule based model only” or “I compared both models.”
 
+I tried both models. The predictions went well for the ML model but in the user input it was all skewed negative. Upon using ChatGPT, it was because my tests all skewed towards negative/mixed.
+
 **Intended purpose:**  
 What is this model trying to do?  
 Example: classify short text messages as moods like positive, negative, neutral, or mixed.
+
+The model's trying to classify short text messages into mood labels.
 
 **How it works (brief):**  
 For the rule based version, describe the scoring rules you created.  
